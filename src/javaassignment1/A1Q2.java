@@ -20,7 +20,7 @@ public class A1Q2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Karel goes to retrieve his newspaper then returns to his bed
         
         City kitchener = new City();
         
@@ -45,5 +45,23 @@ public class A1Q2 {
         Karel.move();
         Karel.turnLeft();
         Karel.move();
+        Karel.pickThing();
+        Karel.turnLeft();
+        Karel.turnLeft();
+        Karel.move();
+        Karel.turnLeft();
+        Karel.turnLeft();
+        Karel.turnLeft();
+        Karel.move();
+        Karel.turnLeft();
+        Karel.turnLeft();
+        Karel.turnLeft();
+        Karel.move();
+        Karel.turnLeft();
+        Karel.turnLeft();
+        Karel.turnLeft();
+        
+        
+        
     }
 }
